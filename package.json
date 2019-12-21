@@ -1,0 +1,11 @@
+{
+  "name": "todo-redux",
+  "version": "1.0.0",
+  "description": "Aplicación para probar las caracteristicas de [Redux](https://es.redux.js.org/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
