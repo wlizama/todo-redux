@@ -4,11 +4,17 @@
   "description": "Aplicación para probar las caracteristicas de [Redux](https://es.redux.js.org/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redux": "^4.0.4"
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "redux": "^4.0.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
