@@ -1,4 +1,3 @@
-// https://www.youtube.com/watch?v=gAoXB7gH0LE&list=PL33bS175Qm6eKgcOtuMp87FvTHNnZHx6P&index=5
 import store from './redux/store'
 
 const itemListaDOM = $("#itemList")
@@ -63,3 +62,5 @@ store.subscribe(() => {
 
     actualizarLista(state)
 })
+
+const actions = JSON.parse(localStorage.getItem('actions') || [])
